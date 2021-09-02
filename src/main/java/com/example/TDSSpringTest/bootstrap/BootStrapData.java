@@ -1,6 +1,7 @@
 package com.example.TDSSpringTest.bootstrap;
 
 import com.example.TDSSpringTest.domain.Author;
+import com.example.TDSSpringTest.domain.Book;
 import com.example.TDSSpringTest.repositories.AuthorRepository;
 import com.example.TDSSpringTest.repositories.BookRepository;
 import org.springframework.boot.CommandLineRunner;
@@ -21,6 +22,8 @@ public class BootStrapData implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
         Author rafael = new Author("Rafael", "Varela");
+        Book hireMe = new Book("Hire me", "1235451");
+        
 
     }
 }
